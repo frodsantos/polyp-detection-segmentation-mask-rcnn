@@ -1,0 +1,2 @@
+new_data/segmentation/train/bbdd/271.bmp
+new_data/segmentation/train/bbdd/272.bmp
