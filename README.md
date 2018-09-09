@@ -1,5 +1,4 @@
 ## Automatic polyp detection, segmentation and classification with Mask R-CNN
-Master thesis: MSc Data Science and Machine Learning, UCL
 
 The codes are based on implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) by [Matterport, Inc](https://github.com/matterport/Mask_RCNN) on Python 3, Keras, and TensorFlow.
 
@@ -25,13 +24,6 @@ Training and test data directory is set up as follows:
    .
    ├── ...
    ├── new_data                                       # Challenge data
-   │   ├── wce                                        # wce datasets
-   │   │    ├── train                                 # Training data
-   │   │    │     ├── inflammatory                    # Inflammatory classification data with gt
-   │   │    │     ├── vascularlesions                 # Vascular lesions classification data with gt
-   │   │    │     ├── normal                          # Normal (background) classification data
-   │   │    ├── test                                  # Testing data, we have no gt for testing data
-   │   │          ├── alltest             
    │   ├── segmentation                               # segmentation datasets
    │   │    ├── train                                 # Training data
    │   │    │     ├── bbdd                            # CVC-300 dataset
@@ -40,16 +32,7 @@ Training and test data directory is set up as follows:
    │   │    ├── test                                  # Testing data
    │   │          ├── CVC612                          # CVC-612 dataset
    │   │          ├── CVC612gt                        # CVC-612 gt frames
-   │   │          ├── hdtest                          # CVC-ClinicHDSegment-test dataset with no gt
-   │   └── detection                                  # detection datasets
-   │   │    ├── train                                 # Training data
-   │   │    │     ├── 1                               # 18 folders with the training frames including gt
-   │   │    │     ...
-   │   │    │     ├── 18                            
-   │   │    ├── test                                  # Testing data
-   │   │    │     ├── 1                               # 18 folders with the test frames. No gt included
-   │   │    │     ...
-   │   │    │     ├── 18                            
+   │   │          ├── hdtest                          # CVC-ClinicHDSegment-test dataset with no gt                      
    └── ...
    ```
 
